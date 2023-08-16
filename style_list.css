@@ -1,0 +1,13 @@
+h1 {
+    color: darkblue;
+}
+
+div.brain {
+
+    background-image: url("Screenshot_20230131_012248.png");
+    background-position: center;
+    font-size: xxx-large;
+    color: cyan ;
+}
+
+
