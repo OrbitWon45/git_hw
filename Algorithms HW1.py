@@ -25,7 +25,7 @@ def sum_of_nums_1_to_n(n: int):
         final_sum = final_sum + num
     return final_sum
 
-print(sum_of_nums_1_to_n(100))
+print(sum_of_nums_1_to_n(10))
 
 # Level 2
 # 1. Find the max number from 3 values.
@@ -39,7 +39,7 @@ def find_the_max_num(a: int, b: int, c: int):
             max_num = n
     return max_num
 
-print(find_the_max_num(1, 222, 3))
+print(find_the_max_num(1, -222, 3))
 
 # 2. Leap year. When a function gets a year, the code detects if it is a leap year or not. How to approach this task
 # A leap year is exactly divisible by 4
@@ -49,13 +49,13 @@ print(find_the_max_num(1, 222, 3))
 
 def leap_year(n):
     if n % 100 == 0 and n % 400 == 0:
-        print('True!')
+        return True
     elif n % 4 == 0 and not n % 100 == 0:
-        print('True!')
+        return True
     else:
-        print('False')
+        return False
 
-leap_year(2024)
+print(leap_year(2024))
 
 # Level 3
 # Fibonacci. The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones.
@@ -70,7 +70,7 @@ def generate_fibonacci_sequence(n: int):
         fib_sequence.append(result)
     print(fib_sequence)
 
-generate_fibonacci_sequence(8)
+generate_fibonacci_sequence(7)
 
 
 
