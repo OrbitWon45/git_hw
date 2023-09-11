@@ -47,14 +47,13 @@ print(repeat_digits('0123456789'))
 # “y” is not considered a vowel for this task. The input string is always in lowercase.
 
 def shortcut(s: str):
-    s = s.lower()
     vowel = 'aeiou'
     result = ''
     for i in s:
         if i not in vowel:
             result += i
     return result
-print(shortcut('I love Trap music!'))
+print(shortcut('i love trap music!'))
 
 
 
