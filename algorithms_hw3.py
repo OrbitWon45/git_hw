@@ -12,11 +12,9 @@ print(find_two_lowest(list_of_num))
 # Given a list of numbers, return the inverse of each. Each positive becomes a negative, and the negatives become positives.
 
 def invert_list(arr: list):
-    invert_list_result = []
-    for i in arr:
-        i = i*-1
-        invert_list_result.append(i)
-    return invert_list_result
+    for i in range(len(arr)):
+        arr[i] = -arr[i]
+    return arr
 list1 = [1, -2, 3, -4, 5, -6, 0]
 print(invert_list(list1))
 
@@ -52,13 +50,11 @@ print(count_larger_neighbors(list_of_nums))
 # Given an array. Find the minimum element in the list and subtract it from each element in the array
 
 def subtract_min(arr: list):
-    list_subtracted = []
     min_element = min(arr)
-    for i in arr:
-        i-=min_element
-        list_subtracted.append(i)
-    return list_subtracted
-list_num_1 =  [9, 2, 5, 4, 7, 6, 3,1]
+    for i in range(len(arr)):
+        arr[i] = arr[i] - min_element
+    return arr
+list_num_1 =  [9, 2, 5, 4, 7, 6, 3, 1]
 print(subtract_min(list_num_1))
 
 
