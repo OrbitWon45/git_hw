@@ -170,42 +170,52 @@
 # print(find_max_index_num(num_list))
 
 
-def sum_between_min_max(aray: list):
-    max_i = 0
-    min_i = 0
-    for i in range(len(aray)):
-        if aray[i] > aray[max_i]:
-            max_i = i
-        elif aray[i] < aray[min_i]:
-            min_i = i
-    return sum(aray[min(min_i, max_i) +1:max(min_i, max_i)])
-num_1_list = [4, 1, 2, 9, 14, 10]
-print(sum_between_min_max(num_1_list))
+# def sum_between_min_max(aray: list):
+#     max_i = 0
+#     min_i = 0
+#     for i in range(len(aray)):
+#         if aray[i] > aray[max_i]:
+#             max_i = i
+#         elif aray[i] < aray[min_i]:
+#             min_i = i
+#     return sum(aray[min(min_i, max_i) +1:max(min_i, max_i)])
+# num_1_list = [4, 1, 2, 9, 14, 10]
+# print(sum_between_min_max(num_1_list))
+#
+# def buy_and_sell_stock(prices: list):
+#     curr_profit = 0
+#     max_profit =0
+#     for d in range(len(prices)-1):
+#         curr_profit = curr_profit + prices[d+1] - prices[d]
+#         if curr_profit > max_profit:
+#             max_profit = curr_profit
+#         elif curr_profit < 0:
+#             curr_profit = 0
+#     return max_profit
+# day_prices = [7, 1, 5, 3, 6, 14 ]
+# print(buy_and_sell_stock(day_prices))
+#
+# def buy_and_sell_stock(prices: list):
+#     max_prof = 0
+#     for i in range(len(prices)-1):
+#         if prices[i+1] - prices[i] > 0:
+#             max_prof += prices[i+1] - prices[i]
+#     return max_prof
+# prices2 = [7, 1, 5, 3, 6, 4 ]
+# print(buy_and_sell_stock(prices2))
 
-def buy_and_sell_stock(prices: list):
-    curr_profit = 0
-    max_profit =0
-    for d in range(len(prices)-1):
-        curr_profit = curr_profit + prices[d+1] - prices[d]
-        if curr_profit > max_profit:
-            max_profit = curr_profit
-        elif curr_profit < 0:
-            curr_profit = 0
-    return max_profit
-day_prices = [7, 1, 5, 3, 6, 14 ]
-print(buy_and_sell_stock(day_prices))
 
-def buy_and_sell_stock(prices: list):
-    max_prof = 0
-    for i in range(len(prices)-1):
-        if prices[i+1] - prices[i] > 0:
-            max_prof += prices[i+1] - prices[i]
-    return max_prof
-prices2 = [7, 1, 5, 3, 6, 4 ]
-print(buy_and_sell_stock(prices2))
-
-
-
+def sum_between_range(arr: list, min_val: int, max_val: int):
+    arr.sort()
+    result = 0
+    r_list = []
+    for i in range(len(arr)):
+        if min_val <= arr[i] <= max_val:
+            result += arr[i]
+            r_list.append(arr[i])
+    return f'{result} {tuple(r_list)}'
+arr1 = [3, 2, 1, 4, 10, 8, 7, 6, 9, 5]
+print(sum_between_range(arr1, 3, 7))
 
 
 

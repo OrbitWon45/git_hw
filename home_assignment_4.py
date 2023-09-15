@@ -22,16 +22,21 @@ print(sum_even_and_product_odd(num_list))
 # You are given an array of integers and two integer values, min and max.
 # Your task is to write a function that finds the sum of all elements in the array that fall within the range [min, max], inclusive.
 
+
 def sum_between_range(arr: list, min_val: int, max_val: int):
-    result = []
-    result_sum = 0
+    arr.sort()
+    result = 0
+    r_list = []
     for i in range(len(arr)):
-        if arr[i] >= min_val and arr[i] <= max_val:
-            result.append(arr[i])
-            result_sum+= i
-    return result_sum
-list_1 = [3, 2, 1, 4, 10, 8, 7, 6, 9, 5]
-print(sum_between_range(list_1, 3, 7))
+        if min_val <= arr[i] <= max_val:
+            result += arr[i]
+            r_list.append(arr[i])
+    return f'{result}, {tuple(r_list)}'
+arr1 = [3, 2, 1, 4, 10, 8, 7, 6, 9, 5]
+print(sum_between_range(arr1, 3, 7))
+
+
+
 
 # task 3
 # Stock price 2
