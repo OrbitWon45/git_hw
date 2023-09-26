@@ -66,11 +66,11 @@ def plus_one(arr: list):
         else:
             arr[i] = 0
             arr[i-1] += 1
-            if arr[0] == 10:
-                arr[0] = 1
-                arr.append(0)
+    if arr[0] == 10:
+        arr[0] = 1
+        arr.append(0)
     return arr
-n_list = [1, 2, 9,]
+n_list = [9, 9, 9]
 print(plus_one(n_list))
 
 

@@ -205,17 +205,96 @@
 # print(buy_and_sell_stock(prices2))
 
 
-def sum_between_range(arr: list, min_val: int, max_val: int):
-    arr.sort()
-    result = 0
-    r_list = []
+# def sum_between_range(arr: list, min_val: int, max_val: int):
+#     arr.sort()
+#     result = 0
+#     r_list = []
+#     for i in range(len(arr)):
+#         if min_val <= arr[i] <= max_val:
+#             result += arr[i]
+#             r_list.append(arr[i])
+#     return f'{result} {tuple(r_list)}'
+# arr1 = [3, 2, 1, 4, 10, 8, 7, 6, 9, 5]
+# print(sum_between_range(arr1, 3, 7))
+
+
+adj = [ 'red', 'ripe', 'tasty']
+fruit = ['apple', 'banana', 'cherry']
+
+for i in adj:
+    for f in fruit:
+        print(i + ' ' + f)
+#
+#
+def selection_sort(arr: list):
     for i in range(len(arr)):
-        if min_val <= arr[i] <= max_val:
-            result += arr[i]
-            r_list.append(arr[i])
-    return f'{result} {tuple(r_list)}'
-arr1 = [3, 2, 1, 4, 10, 8, 7, 6, 9, 5]
-print(sum_between_range(arr1, 3, 7))
+        min = i
+        for j in range(i+1, len(arr)):
+            if arr[j] < arr[min]:
+                min = j
+        arr[i], arr[min] = arr[min], arr[i]
+    return arr
+arr_1 = [7, 2, 8, 3, 5, 9]
+print(selection_sort(arr_1))
+#
+#
+def bubble_sort(arr: list):
+    for i in range(len(arr)):
+        for j in range(len(arr)-1-i):
+            if arr[j] > arr[j+1]:
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+    return arr
+arr_2 = [7, 2, 8, 3, 5, 9]
+print(bubble_sort(arr_2))
+#
+#
+def insertion_sort(arr: list):
+    for i in range(1, len(arr)):
+        key = arr[i]
+        j = i-1
+        while j >= 0 and key < arr[j]:
+            arr[j+1] = arr[j]
+            j -= 1
+        arr[j + 1] = key
+    return arr
+
+arr_3 = [7, 2, 8, 3, 5, 9]
+print(insertion_sort(arr_3))
+
+# AI's code
+# def insertion_sort(arr):
+#     for i in range(1, len(arr)):
+#         key = arr[i]
+#         j = i - 1
+#         while j >= 0 and key < arr[j]:
+#             arr[j + 1] = arr[j]
+#             j -= 1
+#         arr[j + 1] = key
+#
+# # Example usage:
+# my_list = [12, 11, 13, 5, 6]
+# insertion_sort(my_list)
+# print(my_list)
+
+# Chat GPT AI code
+# def generate_fibonacci_sequence(n: int):
+    # This function generates a Fibonacci sequence of length 'n'.
+
+    # Initialize the Fibonacci sequence with the first two numbers.
+    #fib_sequence = [0, 1]
+
+    # Check if n is less than 2, in which case, we return the first n Fibonacci numbers.
+    # if n <= 2:
+    #     return fib_sequence[:n]
+
+    # Calculate the remaining Fibonacci numbers.
+    # for i in range(2, n):
+    #     next_fib = fib_sequence[-1] + fib_sequence[-2]
+    #     fib_sequence.append(next_fib)
+    #
+    # return fib_sequence
+
+# print(generate_fibonacci_sequence(8))
 
 
 
