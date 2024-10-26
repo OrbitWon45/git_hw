@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="df1093a2-840e-43cb-a3db-2537d9e11fb3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmes_practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmes_practice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home_assignment_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/home_assignment_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_ html.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_ html.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,10 +32,11 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/white/git_hw&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/white/cafedaria-practice&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -50,7 +50,29 @@
       <recent name="C:\Users\white\git_hw" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.home_assignment_5">
+  <component name="RunManager" selected="Python.Algorithms HW1">
+    <configuration name="Algorithms HW1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="git_hw" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithms HW1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="algorithmes_practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="git_hw" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -87,28 +109,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms_hw3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="algorrithms_hw_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="git_hw" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorrithms_hw_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Algorithms HW1" />
         <item itemvalue="Python.home_assignment_5" />
         <item itemvalue="Python.algorithmes_practice" />
         <item itemvalue="Python.home_assignment_4" />
         <item itemvalue="Python.algorithms_hw3" />
-        <item itemvalue="Python.algorrithms_hw_2" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +198,21 @@
       <workItem from="1695342902017" duration="6038000" />
       <workItem from="1695601122090" duration="1116000" />
       <workItem from="1695606647994" duration="1253000" />
-      <workItem from="1695731453098" duration="6769000" />
+      <workItem from="1695731453098" duration="7656000" />
+      <workItem from="1697350134723" duration="661000" />
+      <workItem from="1698232985014" duration="122000" />
+      <workItem from="1698233307955" duration="68000" />
+      <workItem from="1698775738061" duration="623000" />
+      <workItem from="1698776440643" duration="7000" />
+      <workItem from="1698791026854" duration="373000" />
+      <workItem from="1708497861471" duration="683000" />
+      <workItem from="1710284956577" duration="15000" />
+      <workItem from="1710285025361" duration="196000" />
+      <workItem from="1710824003327" duration="43000" />
+      <workItem from="1729599038739" duration="105000" />
+      <workItem from="1729599712922" duration="627000" />
+      <workItem from="1729934471937" duration="300000" />
+      <workItem from="1729946601245" duration="961000" />
     </task>
     <servers />
   </component>
@@ -210,8 +224,8 @@
     <SUITE FILE_PATH="coverage/git_hw$home_assignment_5.coverage" NAME="home_assignment_5 Coverage Results" MODIFIED="1695770395142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/git_hw$algorithmes.coverage" NAME="algorithmes Coverage Results" MODIFIED="1692734503484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/git_hw$home_assignment_4.coverage" NAME="home_assignment_4 Coverage Results" MODIFIED="1695759923068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/git_hw$Algorithms_HW1.coverage" NAME="Algorithms HW1 Coverage Results" MODIFIED="1693290568109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/git_hw$algorrithms_hw_2.coverage" NAME="algorrithms_hw_2 Coverage Results" MODIFIED="1693883143444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/git_hw$Algorithms_HW1.coverage" NAME="Algorithms HW1 Coverage Results" MODIFIED="1698233318264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/git_hw$algorithms_hw3.coverage" NAME="algorithms_hw3 Coverage Results" MODIFIED="1694496225458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
